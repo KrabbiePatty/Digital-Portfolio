@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Sorts</title>
+    <link rel="stylesheet" href="../../styleTest.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+	<button class="backButton" onclick="history.back()">Go Back</button>
+	<div class="title">Digital Portfolio</div>
+	<div class="subText"></div>
+      </div>
+      <div id="bar">
+	<div class="menuLink"><a href="../../../home.html">Home</a></div>
+	<div class="menuLink"><a href="../../../aboutMe.html">About Me</a></div>
+	<div class="menuLink"><a href="../../../cs1.html">CS I</a></div>
+	<div class="menuLink"><a href="../../CS-II/cs2.html">CS II</a></div>
+	<div class="menuLink"><a href="../CS-III/cs3.html">CS III</a></div>
+	<div class="menuLink"><a href="../../../DM/discrete\ math.html">Discrete Math</a></div>
+	
+
+      </div>
+      <div id="pageContent">
+	<div class="articleTitle">Merge Sort</div>
+	<div class="articleContent">
+	  <div class="rightLinks">
+	    <div class="linkTitle">Links </div>
+	    <p class="links">
+	      <a href="https://github.com/KrabbiePatty">Github</a>
+	    </p>
+	    
+	  </div>
+	  <p>Merge sort works by taking the input array and dividing it into smaller arrays until it has n number of arrays with 1 index. It then starts to merge each array together in order from smallest to largest. It does this using recursive calls to sort each indice while merging the arrays. The time complexity of merge sort is interesting in that it is constant regardless of the order. This means that the worst case, best case, and average time complexity are O(n*logn). The space complexity is O(n) which is relatively large compared to other algorithms.</p>
+	</div>
+	<div class="articleTitle">Quick Sort</div>
+	<div class="articleContent">
+	  <p>Quick Sort uses partitions to sort the </p>
+
+	  </div>
+	  <p><br />
+	  <p></p>
+	
+      </div>
+    </div>
+    <div id="footer"><a ></a></div>
+    <script></script>
+  </body>
+</html>
