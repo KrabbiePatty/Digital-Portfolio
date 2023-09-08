@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\title{An Explanation of Advanced Sorting Algorithms}
+\author{Blake Gateley}
+\date{September 1, 2023}
+\usepackage{graphicx}
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+
+       {\Huge \textbf{Explaining Advanced Sorting Algorithms}}
+
+       \vspace{0.5cm}
+       Merge, Quick, and Heap% subtitle
+                 
+       \vspace{1.5cm}
+
+       \textbf{Blake Gateley}
+
+
+       
+       \vfill
+            
+       
+            
+       \vspace{0.8cm}
+     
+   
+            
+       Computer Science 3\\
+       Allen High School\\
+       09/01/2023
+            
+   \end{center}
+\end{titlepage}
+\tableofcontents
+
+\newpage
+%----------------------------------------------------------
+\section{Merge Sort}
+Merge sort works by taking the input array and dividing it into smaller arrays until it has n number of arrays with 1 index. It then starts to merge each array together in order from smallest to largest. It does this using recursive calls to sort each indice while merging the arrays. The time complexity of merge sort is interesting in that it is constant regardless of the order. This means that the worst case, best case, and average time complexity are O(n*logn). The space complexity is O(n) which is relatively large compared to other algorithms.
+
+\newpage
+%----------------------------------------------------------
+\section{Quick Sort}
+Quicksort is another divide-and-conquer algorithm with the following steps:
+Pivot: Choose a pivot element from the array.
+Partition: Rearrange the elements such that elements less than the pivotare on the left, and elements greater than the pivot are on the right.
+Recursion: Recursively apply Quicksort to the left and right subarrays.
+Time Complexity:
+Best-case: O(nlogn) - When the pivot choice results in balanced partitions.
+Average-case: O(nlogn)
+Worst-case: O(n) - Occurs when the pivot choice consistently results in un-
+balanced partitions.
+
+Quicksort is not stable by default but can be modified to maintain stability.
+Space Complexity:
+Quicksort is an in-place sorting algorithm, meaning it does not require
+
+\newpage
+%----------------------------------------------------------
+\section{Heap Sort}
+\end{document}
