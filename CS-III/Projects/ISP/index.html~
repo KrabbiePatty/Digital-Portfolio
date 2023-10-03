@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>ISP Idea</title>
     <link rel="stylesheet" href="styleTest.css" />
   </head>
   <body>
@@ -54,7 +54,7 @@
       <!-- content -->
 
       <div id="pageContent">
-	<div class="articleTitle">Why I Built a Digital Portfolio</div>
+	<div class="articleTitle">Revamping Eagle Engagement</div>
 	<div class="articleContent">
 	  <div class="rightLinks">
 	    <div class="linkTitle">Links </div>
@@ -62,13 +62,12 @@
 	      <a href="https://github.com/KrabbiePatty">Github</a>
 	    </p>
 	  </div>
-	  <p style="font-size:17px">I believe that having a digital portfolio is important because it is a concise way to present your coding achievements that be presented to employers or colleges. it shows not only your skills and knowledge but also how much you have improved throughout your coding experiences.<br />
+	  <p style="font-size:17px">A couple of my colleagues and I had the idea to remake and improve upon the current Eagle Engagement App. Eagle Engagement is a system where you gain points for being engaged and interacting with the school community and these points can be redeemed for a multitude of prizes. These prizes include gift cards, parking passes, priority for arena scheduling, and exemptions from finals for seniors. The system has been satisfactory for the past few years but we aim to make it exceptional for the next generation of students. Luckily, the basic framework has already been established and only needs to be polished. A severe greivance that we have with the current system are the lacking opportunities to gain points. Right now, the only ways to gain points are going to sporting events or school ran events. <br />
 	  <p><br />
 	  <p></p>
 	</div>
       </div>
     </div>
 
-    <script></script>
   </body>
 </html>

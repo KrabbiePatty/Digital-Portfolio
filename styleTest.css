@@ -3,7 +3,9 @@ html,body{
     text-align:left
 }
 body{
-    margin:0;padding:0;
+    margin:0;
+    padding:0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     text-align:justify;
     font-family:"trebuchet ms",Arial,Helvetica,sans-serif;
     font-size:13px;
@@ -30,7 +32,7 @@ body{
     position:fixed;
     padding-bottom:0px;
     width:100vw;
-    height:200px;
+    height:150px;
     margin-left:0px;
     margin-right:0px;
     background-image: url("https://media.istockphoto.com/photos/metaverse-city-and-cyberpunk-concept-3d-render-picture-id1382275104?b=1&k=20&m=1382275104&s=170667a&w=0&h=cPU_pCYhFnjr5OVJDq0YeV9GD99Z5Z4EJPZIZB9b7-0=");
@@ -83,7 +85,7 @@ body{
 .articleTitle{
     text-align:left;
     position:relative;
-    top:300px;
+    top:180px;
     padding-left:25px;
     padding-top:10px;
     padding-bottom:10px;
@@ -96,7 +98,7 @@ body{
 .articleContent{
     max-width:1500px;
     margin-left:0px;
-    top:300px;
+    top:180px;
     left:0px;
     position:relative;
     padding-left:25px;
@@ -116,12 +118,12 @@ body{
     font-weight:bold;
 }
 .rightLinks{
-    width:150px;
+    width:100px;
     font-size:15px;
     font-weight:700;
     line-height:21px;
     height:auto;
-    margin-right:-300px;
+    margin-right:-250px;
     background-repeat:no-repeat;
     text-align:right;
     float:right;
@@ -140,9 +142,9 @@ body{
 }
 #bar{	
     position:fixed;
-    top:200px;
+    top:150px;
     width:100%;
-    height:70px;
+    height:30px;
     margin-left:0px;
     margin-right:0px;
     background:#FFB6C1;
@@ -152,30 +154,34 @@ body{
 	animation-name:menuShift;
 	animation-duration:1s;
 	position:relative;
-	height:51px;
+	height:22px;
 	width:180px;
 	text-align:center;
 	float:left;
 	font-family:Geneva,Arial,Helvetica,sans-serif;
-	font-size:24px;
+	font-size:18px;
 	font-weight:700;
-	color:#ead5a8;
-	padding-top:18px;
+	color:#192b33;
+	padding-top:8px;
 	z-index:3;
 		
 }
 .menuLink a{
     color:#192b33
 }
-.menuLink a:hover{
+.menuLink oa:hover{
     color:#ff8000
+}
+#menuLink a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 .menuLink:hover{
     background:#FFB6F3
 }
 a{
   text-decoration:none;
-  color:#8fb359
+  color:#8fb359;   
  }
 #pageContent{
     width:100%;
