@@ -1,5 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {section}{\numberline {2}Aleph-0}{3}{}%
-\contentsline {section}{\numberline {3}Aleph-1}{4}{}%
-\contentsline {section}{\numberline {4}Cantor's Argument}{5}{}%
-\contentsline {section}{\numberline {5}Conclusion}{6}{}%

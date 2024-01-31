@@ -1,9 +1,0 @@
-#!/bin/bash
-set -eu
-target=~/www/Digital\ Portfolio/DM/Journals/Pigeonhole.pdf
-source=Principles.tex
-compiled=Principles.pdf
-pdflatex "$source"
-cp "$compiled" "$target"
-chmod a+r "$target"
-echo "DONE: $compiled -> $target"
