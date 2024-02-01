@@ -72,6 +72,16 @@
   .show {
             display: block;
         }
+    .bio {
+        width: 80%;
+        background-color: #fd7d1481;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+
 
 /* Light */
 @font-face {
