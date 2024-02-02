@@ -73,8 +73,8 @@
             display: block;
         }
     .bio {
-        width: 80%;
-        background-color: #fd7d1481;
+        width: 90%;
+        text-align: justify;
         border-radius: 10px;
         padding: 10px;
         margin: auto;
@@ -385,11 +385,11 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #ef3724 !important;
+    background-color: #ef38245b !important;
 }
 
 .bg-theme-blue {
-    background-color: #2960f7 !important;
+    background-color: #2960f76e !important;
 }
 
 .bg-theme-green {
